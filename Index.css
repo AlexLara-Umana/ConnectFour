@@ -1,0 +1,67 @@
+@import url('http://fonts.cdnfonts.com/css/google-sans');
+
+html {
+  font-family: 'Product Sans', sans-serif;
+}
+
+#title {
+  text-align: center;
+  font-size: 75px;
+  color: white;
+  
+  background-color: magenta;
+  
+  width: 420px;
+  margin: auto;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+#menu {
+  background-color: magenta;
+  border-radius: 50px;
+  width: 500px;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+  text-align: center;
+  height: 85px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.menu-button {
+  text-decoration: none;
+  font-size: 50px;
+  color: cyan;
+
+  background-color: white;
+  border-radius: 50px;
+  padding: 5px 50px;
+  margin: auto 20px;
+  border: none;
+
+  animation: fadeIn 0.5s;
+  transition: all .2s ease-in-out; 
+}
+
+.menu-button:hover {
+  transform: scale(1.05); 
+}
+
+#back-button {
+  display: flex;
+  margin: 10px auto;
+  width: 50px;
+}
