@@ -1,0 +1,48 @@
+@import url('http://fonts.cdnfonts.com/css/google-sans');
+
+html {
+  font-family: 'Product Sans', sans-serif;
+}
+
+.hud {
+  margin: auto;
+  text-align: center;
+}
+
+.hud-label {
+  margin: 10px;
+}
+
+.hud-num {
+  text-align: center;
+}
+
+#replay:hover {
+  cursor: pointer;
+}
+
+#board {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.cell {
+  min-width: 85px;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+#back-button {
+  display: flex;
+  margin: 10px auto;
+  width: 50px;
+}
+
+#flip-img {
+  width: 25%;
+  margin: 10px;
+}
+#flip-img:hover {
+  cursor: pointer;
+}
