@@ -1,1 +1,0 @@
-###PHP/HTML/CSS/JS/mySql code was all created by Alexis Lara-Umana for a Web Development Project at Fresno State (CSCI 130)
