@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="en">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./CSS/Play.css">
+    <title>Connect 4 - Play</title>
+  </head>
+  <body>
+    <table class="hud">
+      <tr>
+        <td><h2 class="hud-label"> Present Turn: </h2><h2 id="move-player" class="hud-num">0</h2></td>
+        <td><h2 class="hud-label"> How long: </h2><h2 id="time-count" class="hud-num">00:00</h2></td>
+        <td><h2 class="hud-label"> Moves Made Thus Far: </h2><h2 id="move-count" class="hud-num">0</h2></td>
+        <td><h2 class="hud-label"> Switch: </h2><a id="flip-button"><img id="flip-img" src="../Img/flip.png"></img></a></td>
+      </tr>
+    </table>
+    <table id="board"></table>
+    <table class="hud">
+      <tr>
+        <td><h2 id="alert"></h2></td>
+      </tr>
+      <tr>
+        <td><h2 id="replay"></h2></td>
+      </tr>
+      <div><a href="../Index.html"><img id="back-button" src="../Img/back.webp"></a></div>
+    </table>
+    <script src="./JS/Play.js" type="module"></script>
+  </body>
+</html>
