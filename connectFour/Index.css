@@ -1,0 +1,113 @@
+@import url('http://fonts.cdnfonts.com/css/google-sans');
+
+html {
+  font-family: 'Product Sans', sans-serif;
+  /* background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8d6beb7f-19a7-47f7-b4d6-f6ab0882ddc8/dblvkxh-dfc2b31d-d3bb-4753-8ffc-fd92db71429b.jpg/v1/fill/w_966,h_827,q_70,strp/connect_four_meme_by_meyers99_dblvkxh-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU2IiwicGF0aCI6IlwvZlwvOGQ2YmViN2YtMTlhNy00N2Y3LWI0ZDYtZjZhYjA4ODJkZGM4XC9kYmx2a3hoLWRmYzJiMzFkLWQzYmItNDc1My04ZmZjLWZkOTJkYjcxNDI5Yi5qcGciLCJ3aWR0aCI6Ijw9MTAwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.sJXUZ1EAR9AL2-7NV9NbwPIiy7a16Mu06ORt3b2NFiU) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  height:100%;
+}
+
+#title {
+  text-align: center;
+  font-size: 75px;
+  color: Yellow;
+  
+  background-color: maroon;
+  
+  width: 420px;
+  margin: auto;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+#menu {
+  background-color: maroon;
+  border-radius: 50px;
+  width: 450px;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+  text-align: center;
+  height: 90px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.menu-button {
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+
+  background-color: yellow;
+  border-radius: 50px;
+  padding: 10px 50px;
+  margin: auto 30px;
+  border: none;
+
+  animation: fadeIn 0.5s;
+  transition: all .2s ease-in-out; 
+}
+
+.menu-button:hover {
+  transform: scale(1.03); 
+}
+
+#back-button {
+  display: flex;
+  margin: 10px auto;
+  width: 50px;
+  border: solid white;
+  padding: 10px;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, pink 50%, cyan 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}

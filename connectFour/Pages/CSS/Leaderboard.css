@@ -1,0 +1,17 @@
+
+#menu {
+  margin-bottom: 10px;
+}
+
+.menu-button::placeholder {
+  text-align: left;
+  color: navy;
+}
+
+.leaderboard-header {
+  background-color: pink;
+}
+.leaderboard-header::placeholder {
+  color: red;
+  text-transform: capitalize;
+}
