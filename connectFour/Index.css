@@ -1,0 +1,108 @@
+@import url('http://fonts.cdnfonts.com/css/google-sans');
+
+html {
+  font-family: 'Product Sans', sans-serif;
+  height:100%;
+}
+
+#title {
+  text-align: center;
+  font-size: 75px;
+  color: Yellow;
+  
+  background-color: maroon;
+  
+  width: 420px;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+#menu {
+  background-color: maroon;
+  border-radius: 25px;
+  width: 450px;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+  text-align: center;
+  height: 90px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+.menu-button {
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+
+  background-color: yellow;
+  border-radius: 25px;
+  padding: 10px 50px;
+  margin: auto 30px;
+  border: none;
+
+  animation: fadeIn 0.5s;
+  transition: all .2s ease-in-out; 
+}
+
+.menu-button:hover {
+  transform: scale(1.03); 
+}
+
+#back-button {
+  display: flex;
+  margin: 10px auto;
+  width: 50px;
+  border: solid black;
+  padding: 10px;
+}
+
+body {
+  margin:0;
+}
+
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, pink 50%, cyan 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg3 {
+  animation-duration:5s;
+}
+
+h1 {
+  font-family:monospace;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}

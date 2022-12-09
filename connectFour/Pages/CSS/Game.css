@@ -1,0 +1,58 @@
+@import url('http://fonts.cdnfonts.com/css/google-sans');
+
+html {
+  font-family: 'Product Sans', sans-serif;
+}
+
+body{
+  background-image: url('https://1000logos.net/wp-content/uploads/2022/02/Fresno-State-Bulldogs-Logo-1976.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.hud {
+  margin: auto;
+  text-align: center;
+  color: red;
+}
+
+.hud-label {
+  margin: 10px;
+}
+
+.hud-num {
+  text-align: center;
+}
+
+#replay:hover {
+  cursor: pointer;
+}
+
+#board {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.cell {
+  min-width: 85px;
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+}
+
+#back-button {
+  display: flex;
+  margin: 10px auto;
+  width: 50px;
+}
+
+#flip-img {
+  width: 25%;
+  margin: 10px;
+  border: solid black;
+  padding: 5px;
+}
+#flip-img:hover {
+  cursor: pointer;
+}
