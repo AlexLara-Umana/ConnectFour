@@ -1,7 +1,7 @@
 # ConnectFour
 
 
-RUNNING GAME YOUR MACHINE:
+RUNNING GAME ON YOUR MACHINE:
 Need to have installed: XAMPP
 To game off of your local machine, you must unzip the zip file
 named "ConnectFour" to your "../XAMPP/htdocs" folder. 
